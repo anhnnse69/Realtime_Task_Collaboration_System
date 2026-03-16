@@ -1,0 +1,10 @@
+# Use the official PostgreSQL image
+FROM postgres:16-alpine
+# Set environment variables for PostgreSQL
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=password
+ENV POSTGRES_DB=manage_task_db
+# Expose the PostgreSQL port
+EXPOSE 5432
+# Use the default command to run PostgreSQL
+CMD ["postgres"]

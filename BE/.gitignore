@@ -1,0 +1,47 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Dependencies
+/node_modules
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+.vscode
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode (specific exclusions)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment variables
+.env
+.env.*
+!.env.template # Keep a template for reference
+
+# Misc
+.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log*
+testem.log
+/typings
+.eslintcache
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# e2e
+/e2e/*.js
+/e2e/*.map
